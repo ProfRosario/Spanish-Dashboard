@@ -2,7 +2,7 @@
 idt001:
   command: configTable
   table-style: 'table-layout: fixed; width: 75% ; margin: 0 auto; border:0px solid rgb(0, 0, 0); border-radius: 10px; background-color:transparent; border-color: blue;'
-  tr-style: 'height: 60px;'
+  tr-style: 'height: 120px;'
   th-style: 'border: 4px solid black; text-align: center;align-items: center; align-self: center; width: 65%;'
   td-style: 'font-size: 18px; text-align:center; border:1px solid rgb(0, 0, 0); border-radius: 10px; padding: 5px; border-style:solid; border-color: blue; background-color:transparent;'
   div-style: 'background-color: transparent; border:0px solid rgb(0, 0, 0); border-radius: 10px; padding: 5px; border-style:solid; border-color:blue;'
@@ -41,7 +41,7 @@ id0:
   image: ./images/Portuguese.png
   space: ''
   font-style: 'margin: 0px 0px 0px; font-size: 14px; font-family: sans-serif; text-align: center; font-weight: normal; font-style: normal; color: blue;'
-  image-style: 'width: 70%; height: 130px; box-shadow: 0px 0px 20px #888; border-radius: 15px;'
+  image-style: 'width: 70%; height: 120px; box-shadow: 0px 0px 20px #888; border-radius: 15px;'
 
 id1:
   command: addItem
@@ -50,7 +50,7 @@ id1:
   image: ./images/spanishafterhours.PNG
   space: ''
   font-style: 'margin: 0px 0px 0px; font-size: 14px; font-family: sans-serif; text-align: center; font-weight: normal; font-style: normal; color: blue;'
-  image-style: 'width: 70%; height: 130px; box-shadow: 0px 0px 20px #888; border-radius: 15px;'
+  image-style: 'width: 70%; height: 120px; box-shadow: 0px 0px 20px #888; border-radius: 15px;'
 
 id2:
   command: addItem
@@ -59,7 +59,7 @@ id2:
   image: ./images/DrDannnyEvans.png
   space: ''
   font-style: 'margin: 0px 0px 0px; font-size: 14px; font-family: sans-serif; text-align: center; font-weight: normal; font-style: normal; color: blue;'
-  image-style: 'width: 70%; height: 130px; box-shadow: 0px 0px 20px #888; border-radius: 15px;'
+  image-style: 'width: 70%; height: 120px; box-shadow: 0px 0px 20px #888; border-radius: 15px;'
 
 id3:
   command: addItem
@@ -68,7 +68,7 @@ id3:
   image: ./images/mangolanguages.png
   space: ''
   font-style: 'margin: 0px 0px 0px; font-size: 14px; font-family: sans-serif; text-align: center; font-weight: normal; font-style: normal; color: blue;'
-  image-style: 'width: 70%; height: 130px; box-shadow: 0px 0px 20px #888; border-radius: 15px;'
+  image-style: 'width: 70%; height: 120px; box-shadow: 0px 0px 20px #888; border-radius: 15px;'
 
 id4:
   command: addItem
@@ -77,7 +77,7 @@ id4:
   image: ./images/heidiespanol.png
   space: ''
   font-style: 'margin: 0px 0px 0px; font-size: 14px; font-family: sans-serif; text-align: center; font-weight: normal; font-style: normal; color: blue;'
-  image-style: 'width: 70%; height: 130px; box-shadow: 0px 0px 20px #888; border-radius: 15px;'
+  image-style: 'width: 70%; height: 120px; box-shadow: 0px 0px 20px #888; border-radius: 15px;'
 
 id5:
   command: addItem
@@ -86,7 +86,7 @@ id5:
   image: ./images/telemadrid.png
   space: ''
   font-style: 'margin: 0px 0px 0px; font-size: 14px; font-family: sans-serif; text-align: center; font-weight: normal; font-style: normal; color: blue;'
-  image-style: 'width: 70%; height: 130px; box-shadow: 0px 0px 20px #888; border-radius: 15px;'
+  image-style: 'width: 70%; height: 120px; box-shadow: 0px 0px 20px #888; border-radius: 15px;'
 
 id6:
   command: addItem
@@ -95,7 +95,7 @@ id6:
   image: ./images/santuariolibertad.png
   space: ''
   font-style: 'margin: 0px 0px 0px; font-size: 14px; font-family: sans-serif; text-align: center; font-weight: normal; font-style: normal; color: blue;'
-  image-style: 'width: 70%; height: 130px; box-shadow: 0px 0px 20px #888; border-radius: 15px;'
+  image-style: 'width: 70%; height: 120px; box-shadow: 0px 0px 20px #888; border-radius: 15px;'
   
 id7:
   command: addItem
@@ -104,7 +104,7 @@ id7:
   image: ./images/duolingo.png
   space: ''
   font-style: 'margin: 0px 0px 0px; font-size: 14px; font-family: sans-serif; text-align: center; font-weight: normal; font-style: normal; color: blue;'
-  image-style: 'width: 70%; height: 130px; box-shadow: 0px 0px 20px #888; border-radius: 15px;'
+  image-style: 'width: 70%; height: 120px; box-shadow: 0px 0px 20px #888; border-radius: 15px;'
 
 id8:
   command: addItem
@@ -113,7 +113,7 @@ id8:
   image: ./images/spanishplayground.png
   space: ''
   font-style: 'margin: 0px 0px 0px; font-size: 14px; font-family: sans-serif; text-align: center; font-weight: normal; font-style: normal; color: blue;'
-  image-style: 'width: 70%; height: 130px; box-shadow: 0px 0px 20px #888; border-radius: 15px;'
+  image-style: 'width: 70%; height: 120px; box-shadow: 0px 0px 20px #888; border-radius: 15px;'
 
 id9:
   command: addItem
@@ -122,7 +122,7 @@ id9:
   image: ./images/butterflyspanish.png
   space: ''
   font-style: 'margin: 0px 0px 0px; font-size: 14px; font-family: sans-serif; text-align: center; font-weight: normal; font-style: normal; color: blue;'
-  image-style: 'width: 70%; height: 130px; box-shadow: 0px 0px 20px #888; border-radius: 15px;'
+  image-style: 'width: 70%; height: 120px; box-shadow: 0px 0px 20px #888; border-radius: 15px;'
 
 id10:
   command: addItem
@@ -131,7 +131,7 @@ id10:
   image: ./images/espanolconali.png
   space: ''
   font-style: 'margin: 0px 0px 0px; font-size: 14px; font-family: sans-serif; text-align: center; font-weight: normal; font-style: normal; color: blue;'
-  image-style: 'width: 70%; height: 130px; box-shadow: 0px 0px 20px #888; border-radius: 15px;'
+  image-style: 'width: 70%; height: 120px; box-shadow: 0px 0px 20px #888; border-radius: 15px;'
 
 id11:
   command: addItem
@@ -140,7 +140,7 @@ id11:
   image: ./images/lingua.png
   space: ''
   font-style: 'margin: 0px 0px 0px; font-size: 14px; font-family: sans-serif; text-align: center; font-weight: normal; font-style: normal; color: blue;'
-  image-style: 'width: 70%; height: 130px; box-shadow: 0px 0px 20px #888; border-radius: 15px;'
+  image-style: 'width: 70%; height: 120px; box-shadow: 0px 0px 20px #888; border-radius: 15px;'
 
 id12:
   command: addItem
@@ -149,7 +149,7 @@ id12:
   image: ./images/spanishdict.png
   space: ''
   font-style: 'margin: 0px 0px 0px; font-size: 14px; font-family: sans-serif; text-align: center; font-weight: normal; font-style: normal; color: blue;'
-  image-style: 'width: 70%; height: 130px; box-shadow: 0px 0px 20px #888; border-radius: 15px;'
+  image-style: 'width: 70%; height: 120px; box-shadow: 0px 0px 20px #888; border-radius: 15px;'
 
 id13:
   command: addItem
@@ -158,7 +158,7 @@ id13:
   image: ./images/googletranslator.png
   space: ''
   font-style: 'margin: 0px 0px 0px; font-size: 14px; font-family: sans-serif; text-align: center; font-weight: normal; font-style: normal; color: blue;'
-  image-style: 'width: 70%; height: 130px; box-shadow: 0px 0px 20px #888; border-radius: 15px;'
+  image-style: 'width: 70%; height: 120px; box-shadow: 0px 0px 20px #888; border-radius: 15px;'
 
 id14:
   command: addItem
@@ -167,7 +167,7 @@ id14:
   image: ./images/FluentUSpanish.png
   space: ''
   font-style: 'margin: 0px 0px 0px; font-size: 14px; font-family: sans-serif; text-align: center; font-weight: normal; font-style: normal; color: blue;'
-  image-style: 'width: 70%; height: 130px; box-shadow: 0px 0px 20px #888; border-radius: 15px;'
+  image-style: 'width: 70%; height: 120px; box-shadow: 0px 0px 20px #888; border-radius: 15px;'
   
 id16:
   command: addItem
@@ -176,7 +176,7 @@ id16:
   image: ./images/holaspanish.png
   space: ''
   font-style: 'margin: 0px 0px 0px; font-size: 14px; font-family: sans-serif; text-align: center; font-weight: normal; font-style: normal; color: blue;'
-  image-style: 'width: 70%; height: 130px; box-shadow: 0px 0px 20px #888; border-radius: 15px;'
+  image-style: 'width: 70%; height: 120px; box-shadow: 0px 0px 20px #888; border-radius: 15px;'
 
 id17:
   command: addItem
@@ -185,7 +185,7 @@ id17:
   image: ./images/EricaRayLanguage.PNG
   space: ''
   font-style: 'margin: 0px 0px 0px; font-size: 14px; font-family: sans-serif; text-align: center; font-weight: normal; font-style: normal; color: blue;'
-  image-style: 'width: 70%; height: 130px; box-shadow: 0px 0px 20px #888; border-radius: 15px;'
+  image-style: 'width: 70%; height: 120px; box-shadow: 0px 0px 20px #888; border-radius: 15px;'
 
 id18:
   command: addItem
@@ -194,7 +194,7 @@ id18:
   image: ./images/listening-spanish.PNG
   space: ''
   font-style: 'margin: 0px 0px 0px; font-size: 14px; font-family: sans-serif; text-align: center; font-weight: normal; font-style: normal; color: blue;'
-  image-style: 'width: 70%; height: 130px; box-shadow: 0px 0px 20px #888; border-radius: 15px;'
+  image-style: 'width: 70%; height: 120px; box-shadow: 0px 0px 20px #888; border-radius: 15px;'
 
 id19:
   command: addItem
@@ -203,7 +203,7 @@ id19:
   image: ./images/HowtoSpanishOfficial.PNG
   space: ''
   font-style: 'margin: 0px 0px 0px; font-size: 14px; font-family: sans-serif; text-align: center; font-weight: normal; font-style: normal; color: blue;'
-  image-style: 'width: 70%; height: 130px; box-shadow: 0px 0px 20px #888; border-radius: 15px;'
+  image-style: 'width: 70%; height: 120px; box-shadow: 0px 0px 20px #888; border-radius: 15px;'
     
 id20:
   command: addItem
@@ -212,7 +212,7 @@ id20:
   image: ./images/espanolconjuan.PNG
   space: ''
   font-style: 'margin: 0px 0px 0px; font-size: 14px; font-family: sans-serif; text-align: center; font-weight: normal; font-style: normal; color: blue;'
-  image-style: 'width: 70%; height: 130px; box-shadow: 0px 0px 20px #888; border-radius: 15px;'
+  image-style: 'width: 70%; height: 120px; box-shadow: 0px 0px 20px #888; border-radius: 15px;'
   
 id21:
   command: addItem
@@ -221,8 +221,17 @@ id21:
   image: ./images/teacheranny.PNG
   space: ''
   font-style: 'margin: 0px 0px 0px; font-size: 14px; font-family: sans-serif; text-align: center; font-weight: normal; font-style: normal; color: blue;'
-  image-style: 'width: 70%; height: 130px; box-shadow: 0px 0px 20px #888; border-radius: 15px;'  
-    
+  image-style: 'width: 70%; height: 120px; box-shadow: 0px 0px 20px #888; border-radius: 15px;'  
+  
+id22:
+  command: addItem
+  title: Caso Cerrado
+  link: https://www.youtube.com/@CasoCerrado/videos
+  image: ./images/CasoCerrado.PNG
+  space: ''
+  font-style: 'margin: 0px 0px 0px; font-size: 14px; font-family: sans-serif; text-align: center; font-weight: normal; font-style: normal; color: blue;'
+  image-style: 'width: 70%; height: 120px; box-shadow: 0px 0px 20px #888; border-radius: 15px;'  
+
 id006:
   command: addTimeStamp
   title: 'Last Created on: '
