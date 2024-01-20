@@ -34,15 +34,6 @@ id005:
   command: setMaxColumns
   max_columns: 6
 
-id0:
-  command: addItem
-  title: Portuguese
-  link: ../Portuguese-Dashboard/index.html
-  image: ./images/Portuguese.png
-  space: ''
-  font-style: 'margin: 0px 0px 0px; font-size: 14px; font-family: sans-serif; text-align: center; font-weight: normal; font-style: normal; color: blue;'
-  image-style: 'width: 70%; height: 120px; box-shadow: 0px 0px 20px #888; border-radius: 15px;'
-
 id1:
   command: addItem
   title: Laura
@@ -228,6 +219,24 @@ id22:
   title: Caso Cerrado
   link: https://www.youtube.com/@CasoCerrado/videos
   image: ./images/CasoCerrado.PNG
+  space: ''
+  font-style: 'margin: 0px 0px 0px; font-size: 14px; font-family: sans-serif; text-align: center; font-weight: normal; font-style: normal; color: blue;'
+  image-style: 'width: 70%; height: 120px; box-shadow: 0px 0px 20px #888; border-radius: 15px;'  
+
+id23:
+  command: addItem
+  title: Alegre Spanish
+  link: https://www.youtube.com/@alegrespanish/videos
+  image: ./images/AlegresSpanish.PNG
+  space: ''
+  font-style: 'margin: 0px 0px 0px; font-size: 14px; font-family: sans-serif; text-align: center; font-weight: normal; font-style: normal; color: blue;'
+  image-style: 'width: 70%; height: 120px; box-shadow: 0px 0px 20px #888; border-radius: 15px;'
+
+id24:
+  command: addItem
+  title: Erre que ELE
+  link: https://www.youtube.com/@ErrequeELE/videos
+  image: ./images/ErrequeELE.PNG
   space: ''
   font-style: 'margin: 0px 0px 0px; font-size: 14px; font-family: sans-serif; text-align: center; font-weight: normal; font-style: normal; color: blue;'
   image-style: 'width: 70%; height: 120px; box-shadow: 0px 0px 20px #888; border-radius: 15px;'  
