@@ -3,8 +3,8 @@ idt001:
   command: configTable
   table-style: 'table-layout: fixed; width: 75% ; margin: 0 auto; border:0px solid rgb(0, 0, 0); border-radius: 10px; background-color:transparent; border-color: blue;'
   tr-style: 'height: 120px;'
-  th-style: 'border: 4px solid black; text-align: center;align-items: center; align-self: center; width: 65%;'
-  td-style: 'font-size: 18px; text-align:center; border:1px solid rgb(0, 0, 0); border-radius: 10px; padding: 5px; border-style:solid; border-color: blue; background-color:transparent;'
+  th-style: 'border: 0px solid black; text-align: center;align-items: center; align-self: center; width: 65%;'
+  td-style: 'font-size: 18px; text-align:center; border:0px solid rgb(0, 0, 0); border-radius: 10px; padding: 5px; border-style:solid; border-color: blue; background-color:transparent;'
   div-style: 'background-color: transparent; border:0px solid rgb(0, 0, 0); border-radius: 10px; padding: 5px; border-style:solid; border-color:blue;'
   body-style: 'padding: 25px; background-color: rgb(255, 222, 173); border: 0px solid rgb(0, 0, 0); border-radius: 10px; border-style:solid; border-color:green;'
 
@@ -13,22 +13,22 @@ id001:
   title: Learn Spanish
   image:  ./images/learnspanish.PNG
   space: ''
-  image-style: 'width: 65%; height: 180px; display: block; margin-left: auto; margin-right: auto; box-shadow: 0px 0px 20px lightblue; border-radius:15px; border-style:dashed; border-color:black; border-width:3px;'
+  img-style: 'width: 65%; height: 180px; display: block; margin-left: auto; margin-right: auto; box-shadow: 0px 0px 20px lightblue; border-radius:15px; border-style:dashed; border-color:black; border-width:3px;'
 
 id003:
   command: addReturnLink
-  title: Main Dashboard
-  link: ../index.html
-  enable_new_tab: true
+  title: Language Dashboard
+  link: ../Language-Dashboard/index.html
   space: ''
-  font-style: 'margin: 5px 0px 0px; font-size: 16px; font-family: Times New Roman; text-align: center; font-weight: normal; font-style: italic; color: green;'
-
+  p-style: 'margin: 5px 0px 0px; font-size: 16px; font-family: Times New Roman; text-align: center; font-weight: normal; font-style: italic; color: green;'
+  target: _parent
+  
 Id004:
   command: addTitle
   title: Spanish Learning Center
   link: ''
   space: ''
-  font-style: 'margin: 5px 0px 0px; font-size: 28px; font-family: Times New Roman; text-align: center; font-weight: Bold; font-style: normal; color: black; border:1px solid rgb(0, 0, 0); border-radius: 10px; border-color: blue; background-color:yellow; margin-left: auto; margin-right: auto; vertical-align:middle; width:75%; height: auto;'
+  p-style: 'margin: 5px 0px 0px; font-size: 28px; font-family: Times New Roman; text-align: center; font-weight: Bold; font-style: normal; color: black; border:1px solid rgb(0, 0, 0); border-radius: 10px; border-color: blue; background-color:yellow; margin-left: auto; margin-right: auto; vertical-align:middle; width:75%; height: auto;'
 
 id005:
   command: setMaxColumns
@@ -40,8 +40,8 @@ id1:
   link: https://www.youtube.com/@spanishafterhours/videos
   image: ./images/spanishafterhours.PNG
   space: ''
-  font-style: 'margin: 0px 0px 0px; font-size: 14px; font-family: sans-serif; text-align: center; font-weight: normal; font-style: normal; color: blue;'
-  image-style: 'width: 70%; height: 120px; box-shadow: 0px 0px 20px #888; border-radius: 15px;'
+  p-style: 'margin: 0px 0px 0px; font-size: 14px; font-family: sans-serif; text-align: center; font-weight: normal; font-style: normal; color: blue;'
+  img-style: 'width: 70%; height: 120px; box-shadow: 0px 0px 20px #888; border-radius: 15px;'
 
 id2:
   command: addItem
@@ -49,8 +49,8 @@ id2:
   link: https://www.youtube.com/watch?v=hyLl_0d0EBw&list=PLTpetkN815Qyuc2RbC1kxxMQvxjQ3RnYG
   image: ./images/DrDannnyEvans.png
   space: ''
-  font-style: 'margin: 0px 0px 0px; font-size: 14px; font-family: sans-serif; text-align: center; font-weight: normal; font-style: normal; color: blue;'
-  image-style: 'width: 70%; height: 120px; box-shadow: 0px 0px 20px #888; border-radius: 15px;'
+  p-style: 'margin: 0px 0px 0px; font-size: 14px; font-family: sans-serif; text-align: center; font-weight: normal; font-style: normal; color: blue;'
+  img-style: 'width: 70%; height: 120px; box-shadow: 0px 0px 20px #888; border-radius: 15px;'
 
 id3:
   command: addItem
@@ -58,8 +58,8 @@ id3:
   link: https://mangolanguages.com/
   image: ./images/mangolanguages.png
   space: ''
-  font-style: 'margin: 0px 0px 0px; font-size: 14px; font-family: sans-serif; text-align: center; font-weight: normal; font-style: normal; color: blue;'
-  image-style: 'width: 70%; height: 120px; box-shadow: 0px 0px 20px #888; border-radius: 15px;'
+  p-style: 'margin: 0px 0px 0px; font-size: 14px; font-family: sans-serif; text-align: center; font-weight: normal; font-style: normal; color: blue;'
+  img-style: 'width: 70%; height: 120px; box-shadow: 0px 0px 20px #888; border-radius: 15px;'
 
 id4:
   command: addItem
@@ -67,8 +67,8 @@ id4:
   link: https://www.youtube.com/@HeidiEspanol/videos
   image: ./images/heidiespanol.png
   space: ''
-  font-style: 'margin: 0px 0px 0px; font-size: 14px; font-family: sans-serif; text-align: center; font-weight: normal; font-style: normal; color: blue;'
-  image-style: 'width: 70%; height: 120px; box-shadow: 0px 0px 20px #888; border-radius: 15px;'
+  p-style: 'margin: 0px 0px 0px; font-size: 14px; font-family: sans-serif; text-align: center; font-weight: normal; font-style: normal; color: blue;'
+  img-style: 'width: 70%; height: 120px; box-shadow: 0px 0px 20px #888; border-radius: 15px;'
 
 id5:
   command: addItem
@@ -76,8 +76,8 @@ id5:
   link: https://www.youtube.com/@telemadrid/videos
   image: ./images/telemadrid.png
   space: ''
-  font-style: 'margin: 0px 0px 0px; font-size: 14px; font-family: sans-serif; text-align: center; font-weight: normal; font-style: normal; color: blue;'
-  image-style: 'width: 70%; height: 120px; box-shadow: 0px 0px 20px #888; border-radius: 15px;'
+  p-style: 'margin: 0px 0px 0px; font-size: 14px; font-family: sans-serif; text-align: center; font-weight: normal; font-style: normal; color: blue;'
+  img-style: 'width: 70%; height: 120px; box-shadow: 0px 0px 20px #888; border-radius: 15px;'
 
 id6:
   command: addItem
@@ -85,8 +85,8 @@ id6:
   link: https://www.youtube.com/@santuariolibertad/videos
   image: ./images/santuariolibertad.png
   space: ''
-  font-style: 'margin: 0px 0px 0px; font-size: 14px; font-family: sans-serif; text-align: center; font-weight: normal; font-style: normal; color: blue;'
-  image-style: 'width: 70%; height: 120px; box-shadow: 0px 0px 20px #888; border-radius: 15px;'
+  p-style: 'margin: 0px 0px 0px; font-size: 14px; font-family: sans-serif; text-align: center; font-weight: normal; font-style: normal; color: blue;'
+  img-style: 'width: 70%; height: 120px; box-shadow: 0px 0px 20px #888; border-radius: 15px;'
   
 id7:
   command: addItem
@@ -94,8 +94,8 @@ id7:
   link: https://www.duolingo.com
   image: ./images/duolingo.png
   space: ''
-  font-style: 'margin: 0px 0px 0px; font-size: 14px; font-family: sans-serif; text-align: center; font-weight: normal; font-style: normal; color: blue;'
-  image-style: 'width: 70%; height: 120px; box-shadow: 0px 0px 20px #888; border-radius: 15px;'
+  p-style: 'margin: 0px 0px 0px; font-size: 14px; font-family: sans-serif; text-align: center; font-weight: normal; font-style: normal; color: blue;'
+  img-style: 'width: 70%; height: 120px; box-shadow: 0px 0px 20px #888; border-radius: 15px;'
 
 id8:
   command: addItem
@@ -103,8 +103,8 @@ id8:
   link: https://www.youtube.com/@SpanishPlayground/videos
   image: ./images/spanishplayground.png
   space: ''
-  font-style: 'margin: 0px 0px 0px; font-size: 14px; font-family: sans-serif; text-align: center; font-weight: normal; font-style: normal; color: blue;'
-  image-style: 'width: 70%; height: 120px; box-shadow: 0px 0px 20px #888; border-radius: 15px;'
+  p-style: 'margin: 0px 0px 0px; font-size: 14px; font-family: sans-serif; text-align: center; font-weight: normal; font-style: normal; color: blue;'
+  img-style: 'width: 70%; height: 120px; box-shadow: 0px 0px 20px #888; border-radius: 15px;'
 
 id9:
   command: addItem
@@ -112,8 +112,8 @@ id9:
   link: https://www.youtube.com/@ButterflySpanish/videos
   image: ./images/butterflyspanish.png
   space: ''
-  font-style: 'margin: 0px 0px 0px; font-size: 14px; font-family: sans-serif; text-align: center; font-weight: normal; font-style: normal; color: blue;'
-  image-style: 'width: 70%; height: 120px; box-shadow: 0px 0px 20px #888; border-radius: 15px;'
+  p-style: 'margin: 0px 0px 0px; font-size: 14px; font-family: sans-serif; text-align: center; font-weight: normal; font-style: normal; color: blue;'
+  img-style: 'width: 70%; height: 120px; box-shadow: 0px 0px 20px #888; border-radius: 15px;'
 
 id10:
   command: addItem
@@ -121,8 +121,8 @@ id10:
   link: https://www.youtube.com/@espanolconali/videos
   image: ./images/espanolconali.png
   space: ''
-  font-style: 'margin: 0px 0px 0px; font-size: 14px; font-family: sans-serif; text-align: center; font-weight: normal; font-style: normal; color: blue;'
-  image-style: 'width: 70%; height: 120px; box-shadow: 0px 0px 20px #888; border-radius: 15px;'
+  p-style: 'margin: 0px 0px 0px; font-size: 14px; font-family: sans-serif; text-align: center; font-weight: normal; font-style: normal; color: blue;'
+  img-style: 'width: 70%; height: 120px; box-shadow: 0px 0px 20px #888; border-radius: 15px;'
 
 id11:
   command: addItem
@@ -130,8 +130,8 @@ id11:
   link: https://lingua.com/spanish/reading/
   image: ./images/lingua.png
   space: ''
-  font-style: 'margin: 0px 0px 0px; font-size: 14px; font-family: sans-serif; text-align: center; font-weight: normal; font-style: normal; color: blue;'
-  image-style: 'width: 70%; height: 120px; box-shadow: 0px 0px 20px #888; border-radius: 15px;'
+  p-style: 'margin: 0px 0px 0px; font-size: 14px; font-family: sans-serif; text-align: center; font-weight: normal; font-style: normal; color: blue;'
+  img-style: 'width: 70%; height: 120px; box-shadow: 0px 0px 20px #888; border-radius: 15px;'
 
 id12:
   command: addItem
@@ -139,8 +139,8 @@ id12:
   link: https://www.spanishdict.com/
   image: ./images/spanishdict.png
   space: ''
-  font-style: 'margin: 0px 0px 0px; font-size: 14px; font-family: sans-serif; text-align: center; font-weight: normal; font-style: normal; color: blue;'
-  image-style: 'width: 70%; height: 120px; box-shadow: 0px 0px 20px #888; border-radius: 15px;'
+  p-style: 'margin: 0px 0px 0px; font-size: 14px; font-family: sans-serif; text-align: center; font-weight: normal; font-style: normal; color: blue;'
+  img-style: 'width: 70%; height: 120px; box-shadow: 0px 0px 20px #888; border-radius: 15px;'
 
 id13:
   command: addItem
@@ -148,8 +148,8 @@ id13:
   link: https://translate.google.com/
   image: ./images/googletranslator.png
   space: ''
-  font-style: 'margin: 0px 0px 0px; font-size: 14px; font-family: sans-serif; text-align: center; font-weight: normal; font-style: normal; color: blue;'
-  image-style: 'width: 70%; height: 120px; box-shadow: 0px 0px 20px #888; border-radius: 15px;'
+  p-style: 'margin: 0px 0px 0px; font-size: 14px; font-family: sans-serif; text-align: center; font-weight: normal; font-style: normal; color: blue;'
+  img-style: 'width: 70%; height: 120px; box-shadow: 0px 0px 20px #888; border-radius: 15px;'
 
 id14:
   command: addItem
@@ -157,8 +157,8 @@ id14:
   link: https://www.youtube.com/@FluentUSpanish/videos
   image: ./images/FluentUSpanish.png
   space: ''
-  font-style: 'margin: 0px 0px 0px; font-size: 14px; font-family: sans-serif; text-align: center; font-weight: normal; font-style: normal; color: blue;'
-  image-style: 'width: 70%; height: 120px; box-shadow: 0px 0px 20px #888; border-radius: 15px;'
+  p-style: 'margin: 0px 0px 0px; font-size: 14px; font-family: sans-serif; text-align: center; font-weight: normal; font-style: normal; color: blue;'
+  img-style: 'width: 70%; height: 120px; box-shadow: 0px 0px 20px #888; border-radius: 15px;'
   
 id16:
   command: addItem
@@ -166,8 +166,8 @@ id16:
   link: https://www.youtube.com/@HolaSpanish
   image: ./images/holaspanish.png
   space: ''
-  font-style: 'margin: 0px 0px 0px; font-size: 14px; font-family: sans-serif; text-align: center; font-weight: normal; font-style: normal; color: blue;'
-  image-style: 'width: 70%; height: 120px; box-shadow: 0px 0px 20px #888; border-radius: 15px;'
+  p-style: 'margin: 0px 0px 0px; font-size: 14px; font-family: sans-serif; text-align: center; font-weight: normal; font-style: normal; color: blue;'
+  img-style: 'width: 70%; height: 120px; box-shadow: 0px 0px 20px #888; border-radius: 15px;'
 
 id17:
   command: addItem
@@ -175,8 +175,8 @@ id17:
   link: https://www.youtube.com/@EricaRayLanguage/videos
   image: ./images/EricaRayLanguage.PNG
   space: ''
-  font-style: 'margin: 0px 0px 0px; font-size: 14px; font-family: sans-serif; text-align: center; font-weight: normal; font-style: normal; color: blue;'
-  image-style: 'width: 70%; height: 120px; box-shadow: 0px 0px 20px #888; border-radius: 15px;'
+  p-style: 'margin: 0px 0px 0px; font-size: 14px; font-family: sans-serif; text-align: center; font-weight: normal; font-style: normal; color: blue;'
+  img-style: 'width: 70%; height: 120px; box-shadow: 0px 0px 20px #888; border-radius: 15px;'
 
 id18:
   command: addItem
@@ -184,8 +184,8 @@ id18:
   link: https://www.youtube.com/@Listening-Spanish-ju8sd/videos
   image: ./images/listening-spanish.PNG
   space: ''
-  font-style: 'margin: 0px 0px 0px; font-size: 14px; font-family: sans-serif; text-align: center; font-weight: normal; font-style: normal; color: blue;'
-  image-style: 'width: 70%; height: 120px; box-shadow: 0px 0px 20px #888; border-radius: 15px;'
+  p-style: 'margin: 0px 0px 0px; font-size: 14px; font-family: sans-serif; text-align: center; font-weight: normal; font-style: normal; color: blue;'
+  img-style: 'width: 70%; height: 120px; box-shadow: 0px 0px 20px #888; border-radius: 15px;'
 
 id19:
   command: addItem
@@ -193,8 +193,8 @@ id19:
   link: https://www.youtube.com/@HowtoSpanishOfficial/videos
   image: ./images/HowtoSpanishOfficial.PNG
   space: ''
-  font-style: 'margin: 0px 0px 0px; font-size: 14px; font-family: sans-serif; text-align: center; font-weight: normal; font-style: normal; color: blue;'
-  image-style: 'width: 70%; height: 120px; box-shadow: 0px 0px 20px #888; border-radius: 15px;'
+  p-style: 'margin: 0px 0px 0px; font-size: 14px; font-family: sans-serif; text-align: center; font-weight: normal; font-style: normal; color: blue;'
+  img-style: 'width: 70%; height: 120px; box-shadow: 0px 0px 20px #888; border-radius: 15px;'
     
 id20:
   command: addItem
@@ -202,8 +202,8 @@ id20:
   link: https://www.youtube.com/@espanolconjuan/videos
   image: ./images/espanolconjuan.PNG
   space: ''
-  font-style: 'margin: 0px 0px 0px; font-size: 14px; font-family: sans-serif; text-align: center; font-weight: normal; font-style: normal; color: blue;'
-  image-style: 'width: 70%; height: 120px; box-shadow: 0px 0px 20px #888; border-radius: 15px;'
+  p-style: 'margin: 0px 0px 0px; font-size: 14px; font-family: sans-serif; text-align: center; font-weight: normal; font-style: normal; color: blue;'
+  img-style: 'width: 70%; height: 120px; box-shadow: 0px 0px 20px #888; border-radius: 15px;'
   
 id21:
   command: addItem
@@ -211,8 +211,8 @@ id21:
   link: https://www.youtube.com/@teacheranny7709/videos
   image: ./images/teacheranny.PNG
   space: ''
-  font-style: 'margin: 0px 0px 0px; font-size: 14px; font-family: sans-serif; text-align: center; font-weight: normal; font-style: normal; color: blue;'
-  image-style: 'width: 70%; height: 120px; box-shadow: 0px 0px 20px #888; border-radius: 15px;'  
+  p-style: 'margin: 0px 0px 0px; font-size: 14px; font-family: sans-serif; text-align: center; font-weight: normal; font-style: normal; color: blue;'
+  img-style: 'width: 70%; height: 120px; box-shadow: 0px 0px 20px #888; border-radius: 15px;'  
   
 id22:
   command: addItem
@@ -220,8 +220,8 @@ id22:
   link: https://www.youtube.com/@CasoCerrado/videos
   image: ./images/CasoCerrado.PNG
   space: ''
-  font-style: 'margin: 0px 0px 0px; font-size: 14px; font-family: sans-serif; text-align: center; font-weight: normal; font-style: normal; color: blue;'
-  image-style: 'width: 70%; height: 120px; box-shadow: 0px 0px 20px #888; border-radius: 15px;'  
+  p-style: 'margin: 0px 0px 0px; font-size: 14px; font-family: sans-serif; text-align: center; font-weight: normal; font-style: normal; color: blue;'
+  img-style: 'width: 70%; height: 120px; box-shadow: 0px 0px 20px #888; border-radius: 15px;'  
 
 id23:
   command: addItem
@@ -229,8 +229,8 @@ id23:
   link: https://www.youtube.com/@alegrespanish/videos
   image: ./images/AlegresSpanish.PNG
   space: ''
-  font-style: 'margin: 0px 0px 0px; font-size: 14px; font-family: sans-serif; text-align: center; font-weight: normal; font-style: normal; color: blue;'
-  image-style: 'width: 70%; height: 120px; box-shadow: 0px 0px 20px #888; border-radius: 15px;'
+  p-style: 'margin: 0px 0px 0px; font-size: 14px; font-family: sans-serif; text-align: center; font-weight: normal; font-style: normal; color: blue;'
+  img-style: 'width: 70%; height: 120px; box-shadow: 0px 0px 20px #888; border-radius: 15px;'
 
 id24:
   command: addItem
@@ -238,11 +238,11 @@ id24:
   link: https://www.youtube.com/@ErrequeELE/videos
   image: ./images/ErrequeELE.PNG
   space: ''
-  font-style: 'margin: 0px 0px 0px; font-size: 14px; font-family: sans-serif; text-align: center; font-weight: normal; font-style: normal; color: blue;'
-  image-style: 'width: 70%; height: 120px; box-shadow: 0px 0px 20px #888; border-radius: 15px;'  
+  p-style: 'margin: 0px 0px 0px; font-size: 14px; font-family: sans-serif; text-align: center; font-weight: normal; font-style: normal; color: blue;'
+  img-style: 'width: 70%; height: 120px; box-shadow: 0px 0px 20px #888; border-radius: 15px;'  
 
 id006:
   command: addTimeStamp
   title: 'Last Created on: '
   space: ''
-  font-style: 'margin: 5px 0px 0px; font-size: 14px; font-family: Times New Roman; text-align: center; font-weight: normal; font-style: italic; color: black; border: 0px solid rgb(0, 0, 0); border-radius: 10px; border-color: green; background-color: yellow;  margin-left: auto; margin-right: auto; vertical-align:middle; width:25%; height: auto;'
+  p-style: 'margin: 5px 0px 0px; font-size: 14px; font-family: Times New Roman; text-align: center; font-weight: normal; font-style: italic; color: black; border: 0px solid rgb(0, 0, 0); border-radius: 10px; border-color: green; background-color: yellow;  margin-left: auto; margin-right: auto; vertical-align:middle; width:25%; height: auto;'
